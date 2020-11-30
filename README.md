@@ -1,7 +1,7 @@
 # <a href='https://krossboard.app/'><img src='https://github.com/2-alchemists/krossboard/blob/master/assets/krossboard-logo.png' alt='Krossboard logo'></a>
 > [Krossboard](https://krossboard.app/) provides a centralized resource usage analytics for multiple Kubernetes. Offerring cross-cloud and cross distribution analytics and dashboards across any number of Kubernetes instances, it's actively tested against Amazon EKS, Microsoft AKS, Google GKE Red Hat OpenShift, Rancher RKE, and various vanilla deployments.
 
-![Krossboard Demo](./assets/krossboard-demo.gif)
+![Krossboard Demo](./assets/krossboard-demo-v1.1.0.gif)
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/2alchemists/krossboard)
 
 ## About this repository
