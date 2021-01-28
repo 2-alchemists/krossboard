@@ -14,4 +14,4 @@ The Krossboard product team actively monitors the repo. We encourage feedback an
 ## Useful Links
 * [Open an issue or feature request](https://github.com/2-alchemists/krossboard/issues)
 * [Documentation](https://krossboard.app/docs/)
-* [Releases Information](https://krossboard.app/releases)
+* [Releases Information](https://krossboard.app/docs/releases)
