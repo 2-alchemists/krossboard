@@ -20,7 +20,7 @@ export KB_AZURE_VM_SIZE_DEFAULT='Standard_B1ms'
 export KB_AZURE_LOCATION_DEFAULT='centralus'
 export KB_AZURE_IMAGE="/subscriptions/${KB_AZURE_PROVIDER_SUB}/resourceGroups/krossboard-release/providers/Microsoft.Compute/galleries/KrossboardRelease/images/Krossboard"
 
-export KB_GCP_IMAGE='krossboard-v20210618t1623996404-4b9d4f8'
+export KB_GCP_IMAGE='krossboard-v20210622t1624344634-68ceb53'
 
 declare -A KB_AWS_AMIS
-KB_AWS_AMIS["eu-central-1"]='ami-051f8d90af3a6fbcb'
+KB_AWS_AMIS["eu-central-1"]='ami-0d37db5e6bf4c19f5'
