@@ -9,7 +9,7 @@ Key features:
 * **Deploy in minutes, for multiple clusters**: Krossboard is an integrated tool easy to deploy. Released as ready-to-install virtual machine appliances, cloud images and  binary packages, its deployment only needs a couple of minutes.
 * **Consistent Accounting, for Cost allocation and Capacity planning**: Krossboard regularly collects instantaneous usage metrics, then aggregate and consolidate over time to produce short-term (hourly), mid-term (daily) and long-term (monthly) usage accouting covering up to a year. At any point or period of time, your organization can get relevant accounting insights for cost allocation and capacity planning.
 * **Discovery of Managed Kubernetes clusters**:  When deployed on a supported cloud environment, Krossboard can be configured to automatically discover and track the usage of your managed Kubernetes on Amazon EKS, Google GKE and Microsoft AKS.
-* **User-extensible analytics**: Aware that organizations may need specific analytics that are not natively built in Krossboard, it's designed to feature the ability to export any data its generates in CSV format. Those data can then be further processed to extract additional insights (e.g. using tools like [Google BigQuery](https://cloud.google.com/bigquery), [AWS Athena](https://aws.amazon.com/athena/), [Azure Synapse](https://azure.microsoft.com/en-us/services/synapse-analytics/), [Tableau](https://www.tableau.com/), [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel#pivot-forPersonal), to list a few).
+* **User-extensible analytics**: Krossboard enables REST API to expose the analytics data it generates to third-parties systems. Data can be exposed in JSON or CSV format.
 
 
 ![Krossboard Demo](./assets/krossboard-demo-v1.1.0.gif)
