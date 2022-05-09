@@ -14,8 +14,6 @@ Key features:
 
 ![Krossboard Demo](./assets/krossboard-demo-v1.1.0.gif)
 
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/2alchemists/krossboard)
-
 # Getting Started
 * [Setup Krossboard for Multi-Cloud or Cross-Kubernetes Distributions](https://krossboard.app/docs/60_deploy-for-cross-cloud-and-on-premises-kubernetes/)
 * [Setup Krossboard for Amazon EKS](https://krossboard.app/docs/50_deploy-for-amazon-eks/)
@@ -26,6 +24,8 @@ Key features:
 This repository provides release packages, [scripts and built-in configuration files](tooling/setup) used to set up Krossboard.
 
 We encourage feedback and always make our best to handle any issues as fast as possible. Don't hesitate to submit issues or feature requests.
+
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/2alchemists/krossboard)
 
 ## Useful Links
 * [Open an issue or feature request](https://github.com/2-alchemists/krossboard/issues)
