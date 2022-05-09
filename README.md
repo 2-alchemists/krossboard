@@ -13,6 +13,7 @@ Key features:
 
 
 ![Krossboard Demo](./assets/krossboard-demo-v1.1.0.gif)
+
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/2alchemists/krossboard)
 
 # Getting Started
