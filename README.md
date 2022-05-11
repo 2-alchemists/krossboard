@@ -1,9 +1,8 @@
-<a href='https://krossboard.app/'><img src='https://github.com/2-alchemists/krossboard/blob/master/assets/krossboard-logo.png' alt='Krossboard logo'></a>
+![](krossboard-architecture-thumbnail.png)
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-  - [Open to Contributions](#open-to-contributions)
-  - [Useful Links](#useful-links)
+- [Open to Contributions](#open-to-contributions)
 
 --- 
  
