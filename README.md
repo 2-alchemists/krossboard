@@ -1,4 +1,4 @@
-![](krossboard-architecture-thumbnail.png)
+![](krossboard-architecture-overview.png)
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
