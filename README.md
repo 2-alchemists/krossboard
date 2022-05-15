@@ -7,13 +7,13 @@
 --- 
  
 # Overview
-Krossboard provides an advanced & centralized resource usage analytic and accounting for multiple Kubernetes. 
+Krossboard provides an advanced & centralized resource usage analytic and accounting for multiple Kubernetes. The Kubernetes clusters can be on premises and/or in the cloud, self-deployed or managed.
 
 Key features:
 
-* **Cross-Cloud & Cross-Kubernetes distributions**: By design, Krossboard enables to tackle usage analytics & accounting across any Kubernetes distributions, regardless of whether they are deployed on premises or managed on the cloud. It's actively validated against Amazon EKS, Microsoft AKS, Google GKE Red Hat OpenShift, Rancher RKE, vanilla Kubernetes.
-* **Visualization at a central place**: Krossboard runs atop of multiple Kubernetes clusters to provide an *comprehensive and consistent usage analytics and accounting* framework. This unique feature helps organizations to set up a global strategy to understand their Kubernetes spending in order to take appropriate cost optimization decisions.
-* **Deploy in minutes, for multiple clusters**: Krossboard is an integrated tool easy to deploy. Released as ready-to-install virtual machine appliances, cloud images and  binary packages, its deployment only needs a couple of minutes.
+* **Cross-Cloud & Cross-Kubernetes distributions**: By design, Krossboard enables to tackle usage analytics & accounting for multiple Kubernetes clusters, regardless of the distribution. It's actively tested against Amazon EKS, Microsoft AKS, Google GKE, Red Hat OpenShift and vanilla Kubernetes.
+* **Visualization at a central place**: An instance of Krossboard provides an *comprehensive and consistent usage analytics and accounting* framework over the different Kubernetes clusters it handles. This unique feature helps financial and engineering teams to finely understand their Kubernetes spendings, so to be able to take appropriate cost optimization decisions.
+* **Deploy in minutes, for multiple clusters**: Krossboard is an integrated and easy-to-deploy tool. It can be installed in a couple of minutes thanks to its ready-to-install artifacts: virtual machine appliances, cloud images, or binary packages.
 * **Consistent Accounting for Cost allocation and Capacity planning**: Krossboard regularly collects instantaneous usage metrics, then aggregate and consolidate over time to produce short-term (hourly), mid-term (daily) and long-term (monthly) usage accounting covering up to a year. At any point or period of time, your organization can get relevant accounting insights for cost allocation and capacity planning.
 * **Discovery of Managed Kubernetes clusters**:  When deployed on a supported cloud environment, Krossboard can be configured to automatically discover and track the usage of your managed Kubernetes on Amazon EKS, Google GKE and Microsoft AKS.
 * **Extensible analytics/reports**: Krossboard enables REST API to expose the analytics data it generates to third-parties analytics systems. Data can be exposed in JSON or CSV format.
