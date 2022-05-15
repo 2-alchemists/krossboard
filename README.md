@@ -32,7 +32,5 @@ This repository provides release packages, [scripts and built-in configuration f
 
 We encourage feedback and always make our best to handle any issues as fast as possible. Don't hesitate to submit issues or feature requests.
 
-The core of krossboard-data-processor is built with Go. It uses various of other technologies  related technologies that are listed here: 
-
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/2alchemists/krossboard).
 
