@@ -11,12 +11,12 @@ Krossboard provides an advanced & centralized resource usage analytic and accoun
 
 Key features:
 
-* **Cross-Cloud & Cross-Kubernetes distributions**: By design, Krossboard enables to tackle usage analytics & accounting for multiple Kubernetes clusters, regardless of the distribution. It's actively tested against Amazon EKS, Microsoft AKS, Google GKE, Red Hat OpenShift and vanilla Kubernetes.
-* **Visualization at a central place**: An instance of Krossboard provides an *comprehensive and consistent usage analytics and accounting* framework over the different Kubernetes clusters it handles. This unique feature helps financial and engineering teams to finely understand their Kubernetes spendings, so to be able to take appropriate cost optimization decisions.
-* **Deploy in minutes, for multiple clusters**: Krossboard is an integrated and easy-to-deploy tool. It can be installed in a couple of minutes thanks to its ready-to-install artifacts: virtual machine appliances, cloud images, or binary packages.
-* **Consistent Accounting for Cost allocation and Capacity planning**: Krossboard regularly collects instantaneous usage metrics, then aggregate and consolidate over time to produce short-term (hourly), mid-term (daily) and long-term (monthly) usage accounting covering up to a year. At any point or period of time, your organization can get relevant accounting insights for cost allocation and capacity planning.
-* **Discovery of Managed Kubernetes clusters**:  When deployed on a supported cloud environment, Krossboard can be configured to automatically discover and track the usage of your managed Kubernetes on Amazon EKS, Google GKE and Microsoft AKS.
-* **Extensible analytics/reports**: Krossboard enables REST API to expose the analytics data it generates to third-parties analytics systems. Data can be exposed in JSON or CSV format.
+* **Multi-Kubernetes Data Collection**: Krossboard periodically collects raw metrics related to containers, pods and nodes from each Kubernetes cluster it handles. The built-in data collection period is 5 minutes.
+* **Powerful Analytics Processing**: Krossboard internally processes raw metrics to produce insightful Kubernetes usage accounting and analytics metrics. The analytics data are tracked on a hourly-basis, per namespace, per cluster, and globally.
+* **Insightful Usage Accounting**: Krossboard periodically processes usage accounting, per namespace and per cluster. By the default, the UI displays accounting the following periods without any additioanl configuration: daily accounting for the last 14 days, monthly for the ast 12 months.
+* **REST API**: This exposes the generated analytics data it generates to third-party systems.
+* **Easy to deploy**: The Krossboard operator is deployable in a couple of minutes.
+* **Extensible analytics/reports**: Krossboard enables REST API to expose the analytics data it generates to third-parties analytics systems in CSV or JSON format.
 
 
 ![Krossboard Demo](./assets/krossboard-demo-v1.1.0.gif)
