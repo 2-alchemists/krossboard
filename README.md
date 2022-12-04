@@ -1,3 +1,6 @@
+**DEPRECATED REPO => Use [Krossboard Kubernetes Operator](https://github.com/2-alchemists/krossboard-kubernetes-operator) instead.**
+
+---
 ![](krossboard-architecture-overview.png)
 
 - [Overview](#overview)
@@ -14,7 +17,7 @@ Key features:
 * **Multi-Kubernetes Data Collection**: Krossboard periodically collects raw metrics related to containers, pods and nodes from each Kubernetes cluster it handles. The built-in data collection period is 5 minutes.
 * **Powerful Analytics Processing**: Krossboard internally processes raw metrics to produce insightful Kubernetes usage accounting and analytics metrics. The analytics data are tracked on a hourly-basis, per namespace, per cluster, and globally.
 * **Insightful Usage Accounting**: Krossboard periodically processes usage accounting, per namespace and per cluster. By the default, the UI displays accounting the following periods without any additioanl configuration: daily accounting for the last 14 days, monthly for the ast 12 months.
-* **REST API**: This exposes the generated analytics data it generates to third-party systems.
+* **REST API**: Krossboard exposes the analytics data it generates to third-party systems thanks to REST APIs.
 * **Easy to deploy**: The Krossboard operator is deployable in a couple of minutes.
 * **Extensible analytics/reports**: Krossboard enables REST API to expose the analytics data it generates to third-parties analytics systems in CSV or JSON format.
 
