@@ -4,9 +4,9 @@
 ---
 
 <!-- vscode-markdown-tkubectl -->
-- [What is Krossboard Kubernetes Operator](#what-is-krossboard)
-- [Deploy Krossboard Kubernetes Operator](#deploy-krossboard-kubernetes-operator)
-- [Deploy a Krossboard Instance](#deploy-a-krossboard-instance)
+- [What is Krossboard](#what-is-krossboard)
+- [Deploy Krossboard](#deploy-krossboard)
+- [Create a Krossboard Instance](#deploy-a-krossboard-instance)
   - [Create a Krossboard CR](#create-a-krossboard-cr)
   - [Create a KUBECONFIG secret for target Kubernetes](#create-a-kubeconfig-secret-for-target-kubernetes)
   - [Start the Krossboard Instance](#start-the-krossboard-instance)
@@ -35,7 +35,7 @@ The next steps describe how to deploy the operator and a Krossboard instance.
 
 > Learn more about [Krossboard Features](./docs/what-is-krossboard.md)
 
-# <a name='DeployKrossboardOperator'></a>Deploy Krossboard Kubernetes Operator
+# <a name='DeployKrossboardOperator'></a>Deploy Krossboard
 The following command deploy the latest version of Krossboard Operator.
 
 ```bash
