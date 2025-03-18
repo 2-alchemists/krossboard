@@ -4,7 +4,7 @@
 ---
 
 <!-- vscode-markdown-tkubectl -->
-- [What is Krossboard Kubernetes Operator](#what-is-krossboard-kubernetes-operator)
+- [What is Krossboard Kubernetes Operator](#what-is-krossboard)
 - [Deploy Krossboard Kubernetes Operator](#deploy-krossboard-kubernetes-operator)
 - [Deploy a Krossboard Instance](#deploy-a-krossboard-instance)
   - [Create a Krossboard CR](#create-a-krossboard-cr)
