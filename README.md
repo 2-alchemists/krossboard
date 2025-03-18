@@ -18,22 +18,22 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-tkubectl -->
 
-# What is Krossboard Kubernetes Operator
+# What is Krossboard
 
-[Krossboard](https://www.krossboard.app/) is a multi-cluster and cross-distribution Kubernetes usage accounting and analytics software. 
+Krossboard is a Kubernetes Operator designed to provide comprehensive usage tracking, analytics, and accounting across diverse Kubernetes environments. It supports cross-site deployments (e.g., geographically dispersed clusters) and cross-distribution management (e.g., vanilla Kubernetes, OpenShift, EKS, AKS, GKE, and other distributions).
 
-> Learn more about [Krossboard Features](./docs/what-is-krossboard.md)
-
-Krossboard Kubernetes Operator provides custom resources (CR) along with an operator to deploy and manage instances of Krossboard as Kubernetes pods.
+Krossboard enables enterprises to gain insights into resource consumption, perform cost analysis, and centralize monitoring across multiple Kubernetes clusters. For example, it helps manage resource usage across multiple cloud providers and provides detailed cost analysis for hybrid deployments. Check out the documentation for more details.
 
 ![](krossboard-architecture-overview.png)
 
 
-The [Krossboard CR](https://raw.githubusercontent.com/2-alchemists/krossboard-kubernetes-operator/main/config/releases/latest/krossboard/krossboard-kubernetes-operator.yaml) defines a Krossboard instance as a Kind, as well as parameters to bootstrap that instance: krossboard-api, krossboard-ui, krossboard-consolidator, krossboard-kubeconfig-handler, kube-opex-analytics instances.
+Once the Operator installed, the [Krossboard CR](https://raw.githubusercontent.com/2-alchemists/krossboard-kubernetes-operator/main/config/releases/latest/krossboard/krossboard-kubernetes-operator.yaml) allows to define a Krossboard instance as a Kind, as well as parameters to bootstrap that instance: krossboard-api, krossboard-ui, krossboard-consolidator, krossboard-kubeconfig-handler, kube-opex-analytics instances.
 
 Each instance of Krossboard enables to track the usage of a set of Kubernetes clusters listed in a KUBECONFIG secret.
 
 The next steps describe how to deploy the operator and a Krossboard instance.
+
+> Learn more about [Krossboard Features](./docs/what-is-krossboard.md)
 
 # <a name='DeployKrossboardOperator'></a>Deploy Krossboard Kubernetes Operator
 The following command deploy the latest version of Krossboard Operator.
